@@ -235,6 +235,10 @@ This is a collection of my personal settings for Visual Studio Code. I use these
 
   - Advanced autocompletion and refactoring support for SCSS
 
+- [Sort lines](https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines)
+
+  - Sorts lines of text
+
 - [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
 
   - Official Stylelint extension for Visual Studio Code
@@ -320,6 +324,7 @@ streetsidesoftware.code-spell-checker
 streetsidesoftware.code-spell-checker-german
 stylelint.vscode-stylelint
 tal7aouy.icons
+tyriar.sort-lines
 usernamehw.errorlens
 vue.volar
 waderyan.gitblame
@@ -330,8 +335,11 @@ wix.vscode-import-cost
 
 ```json title=settings.json
 {
+  "update.showReleaseNotes": false,
+
   "security.workspace.trust.untrustedFiles": "open",
 
+  "workbench.tips.enabled": false,
   "workbench.startupEditor": "none",
   "workbench.settings.editor": "json",
   "workbench.layoutControl.enabled": false,
@@ -379,9 +387,11 @@ wix.vscode-import-cost
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.unicodeHighlight.ambiguousCharacters": true,
   "editor.bracketPairColorization.enabled": false,
+  "editor.lightbulb.enabled": "off",
   "editor.glyphMargin": false,
   "editor.accessibilitySupport": "off",
   "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.wordSeparators": "`~!@#$%^&*()-_=+[{]}\\|;:'\",.<>/?",
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit"
   },
@@ -405,9 +415,11 @@ wix.vscode-import-cost
   "explorer.compactFolders": false,
   "explorer.confirmDragAndDrop": false,
 
+  "git.autofetch": true,
+  "git.autofetchPeriod": 60,
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
-  "git.openRepositoryInParentFolders": "never",
+  "git.rebaseWhenSync": true,
 
   "diffEditor.hideUnchangedRegions.enabled": true,
 
