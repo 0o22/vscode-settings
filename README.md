@@ -5,11 +5,13 @@ This is a collection of my personal settings for Visual Studio Code. I use these
 ## Fonts
 
 - [Monaspace Argon](https://monaspace.githubnext.com)
+
 - [MesloLGS NF](https://github.com/romkatv/dotfiles-public/tree/master/.local/share/fonts/NerdFonts)
 
 ## Themes
 
 - [Monokai Pro](https://monokai.pro/vscode)
+
 - [Catppuccin for VSCode](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc)
 
   - Sometimes I also like to tweak the **Catppuccin** theme and add border to the sidebar:
