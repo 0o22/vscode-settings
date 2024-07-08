@@ -12,7 +12,7 @@ This is a collection of my personal settings for Visual Studio Code. I use these
 
 - [Monokai Pro](https://monokai.pro/vscode)
 
-- [Catppuccin for VSCode](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc) **_Currently using this theme_**
+- [Catppuccin for VSCode](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc) **_(I use this theme most of the time)_**
 
   - Sometimes I also like to tweak the **Catppuccin** theme and add border to the sidebar:
 
