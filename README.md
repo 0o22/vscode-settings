@@ -387,3 +387,8 @@ This is a collection of my personal settings for Visual Studio Code. I use these
   "redhat.telemetry.enabled": false
 }
 ```
+## Final result
+
+<img width="500" alt="image" src="https://github.com/0o22/vscode-settings/assets/157328003/016f519a-e7b9-4d18-ac4d-feb34f7f069e">
+<img width="500" alt="image" src="https://github.com/0o22/vscode-settings/assets/157328003/cf1f9e77-c99e-4e5c-8c6f-20b65bdbc3c6">
+
