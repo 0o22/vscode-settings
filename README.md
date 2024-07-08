@@ -263,6 +263,69 @@ This is a collection of my personal settings for Visual Studio Code. I use these
 
   - Improve highlighting of errors, warnings and other language diagnostics.
 
+### Extensions List
+
+```text
+aaron-bond.better-comments
+antfu.icons-carbon
+apollographql.vscode-apollo
+astro-build.astro-vscode
+biomejs.biome
+bradlc.vscode-tailwindcss
+catppuccin.catppuccin-vsc
+catppuccin.catppuccin-vsc-icons
+catppuccin.catppuccin-vsc-pack
+christian-kohler.npm-intellisense
+christian-kohler.path-intellisense
+davidanson.vscode-markdownlint
+dbaeumer.vscode-eslint
+donjayamanne.githistory
+drcika.apc-extension
+ecmel.vscode-html-css
+editorconfig.editorconfig
+esbenp.prettier-vscode
+formulahendry.code-runner
+fractalbrew.backticks
+github.copilot
+github.copilot-chat
+github.vscode-github-actions
+gitlab.gitlab-workflow
+graphql.vscode-graphql
+graphql.vscode-graphql-syntax
+mgmcdermott.vscode-language-babel
+mhutchie.git-graph
+mikestead.dotenv
+monokai.theme-monokai-pro-vscode
+mrmlnc.vscode-less
+mrmlnc.vscode-scss
+ms-azuretools.vscode-docker
+ms-kubernetes-tools.vscode-kubernetes-tools
+ms-playwright.playwright
+ms-vscode-remote.remote-containers
+ms-vscode-remote.remote-ssh
+ms-vscode-remote.remote-ssh-edit
+ms-vscode.remote-explorer
+ms-vscode.remote-server
+ms-vsliveshare.vsliveshare
+nrwl.angular-console
+orta.vscode-jest
+oven.bun-vscode
+prisma.prisma
+pucelle.vscode-css-navigation
+redhat.vscode-xml
+redhat.vscode-yaml
+ritwickdey.liveserver
+simonsiefke.svg-preview
+streetsidesoftware.code-spell-checker
+streetsidesoftware.code-spell-checker-german
+stylelint.vscode-stylelint
+tal7aouy.icons
+usernamehw.errorlens
+vue.volar
+waderyan.gitblame
+wix.vscode-import-cost
+```
+
 ## Settings
 
 ```json title=settings.json
