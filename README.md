@@ -116,6 +116,10 @@ This is a collection of my personal settings for Visual Studio Code. I use these
 
   - GitHub Actions workflows and runs for github.com hosted repositories in VS Code
 
+- [GitHub Codespaces](https://marketplace.visualstudio.com/items?itemName=GitHub.codespaces)
+
+  - Your instant dev environment
+
 - [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
 
   - Your AI pair programmer
@@ -275,6 +279,7 @@ editorconfig.editorconfig
 esbenp.prettier-vscode
 formulahendry.code-runner
 fractalbrew.backticks
+github.codespaces
 github.copilot
 github.copilot-chat
 github.vscode-github-actions
