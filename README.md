@@ -10,24 +10,9 @@ This is a collection of my personal settings for Visual Studio Code. I use these
 
 ## Themes
 
-- [Monokai Pro](https://monokai.pro/vscode)
-
 - [Catppuccin for VSCode](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc) **_(I use this theme most of the time)_**
 
-  - Sometimes I also like to tweak the **Catppuccin** theme and add border to the sidebar:
-
-    ```json title="settings.json"
-    {
-      "workbench.colorCustomizations": {
-        "[Catppuccin Latte]": {
-          "sideBar.border": "#DCE0E8"
-        },
-        "[Catppuccin Macchiato]": {
-          "sideBar.border": "#171926"
-        }
-      }
-    }
-    ```
+- [Monokai Pro](https://monokai.pro/vscode)
 
 ## Extensions
 
