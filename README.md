@@ -317,6 +317,7 @@ simonsiefke.svg-preview
 streetsidesoftware.code-spell-checker
 streetsidesoftware.code-spell-checker-german
 stylelint.vscode-stylelint
+supermaven.supermaven
 tal7aouy.icons
 tyriar.sort-lines
 usernamehw.errorlens
