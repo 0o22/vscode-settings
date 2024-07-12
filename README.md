@@ -454,6 +454,8 @@ wix.vscode-import-cost
   "supermaven.enable": {
     "*": true,
   },
+  "supermaven.allowGitignore": true,
+  "supermaven.otherWarning": false,
 
   "liveServer.settings.fullReload": true,
   "liveServer.settings.donotShowInfoMsg": true,
