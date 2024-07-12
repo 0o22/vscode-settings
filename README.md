@@ -232,6 +232,10 @@ This is a collection of my personal settings for Visual Studio Code. I use these
 
   - Official Stylelint extension for Visual Studio Code
 
+- [SuperMaven](https://marketplace.visualstudio.com/items?itemName=supermaven.supermaven)
+
+  - The fastest copilot.
+
 - [Svg Preview](https://marketplace.visualstudio.com/items?itemName=SimonSiefke.svg-preview)
 
   - Preview for SVG files
@@ -418,7 +422,6 @@ wix.vscode-import-cost
   "zenMode.centerLayout": false,
 
   "emmet.triggerExpansionOnTab": true,
-
   "emmet.excludeLanguages": [],
   "emmet.includeLanguages": {
     "markdown": "html"
@@ -440,11 +443,15 @@ wix.vscode-import-cost
   "javascript.autoClosingTags": true,
   "typescript.autoClosingTags": true,
 
+  "biome.enabled": false,
+  "prettier.enable": false,
+
   "github.copilot.enable": {
+    "*": false,
+  },
+
+  "supermaven.enable": {
     "*": true,
-    "plaintext": false,
-    "markdown": true,
-    "scminput": false
   },
 
   "liveServer.settings.fullReload": true,
