@@ -14,6 +14,8 @@ This is a collection of my personal settings for Visual Studio Code. I use these
 
 - [Monokai Pro](https://monokai.pro/vscode)
 
+- [Cobalt2 Theme Official](https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2)
+
 ## Extensions
 
 - [Apc Customize UI++](https://marketplace.visualstudio.com/items?itemName=drcika.apc-extension)
@@ -63,6 +65,10 @@ This is a collection of my personal settings for Visual Studio Code. I use these
 - [Catppuccin Pack](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc-pack)
 
   - Soothing pastel theme pack for VSCode
+
+- [Cobalt2 Theme Official](https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2)
+
+  - 🔥 Official theme by Wes Bos.
 
 - [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
 
@@ -323,6 +329,7 @@ tyriar.sort-lines
 usernamehw.errorlens
 vue.volar
 waderyan.gitblame
+wesbos.theme-cobalt2
 wix.vscode-import-cost
 ```
 
@@ -343,14 +350,13 @@ wix.vscode-import-cost
   "workbench.preferredLightColorTheme": "Catppuccin Latte",
   "workbench.iconTheme": "catppuccin-mocha",
 
-  "catppuccin.extraBordersEnabled": true,
-  "catppuccin.bracketMode": "monochromatic",
-  "catppuccin-icons.hidesExplorerArrows": true,
-
   "window.autoDetectColorScheme": true,
   "window.autoDetectHighContrast": true,
   "window.commandCenter": false,
   "window.titleBarStyle": "native",
+
+  "catppuccin.extraBordersEnabled": true,
+  "catppuccin-icons.hidesExplorerArrows": true,
 
   "apc.font.family": "Monaspace Argon",
   "apc.electron": {
@@ -446,13 +452,14 @@ wix.vscode-import-cost
 
   "biome.enabled": false,
   "prettier.enable": false,
+  "eslint.enable": false,
 
   "github.copilot.enable": {
-    "*": false,
+    "*": false
   },
 
   "supermaven.enable": {
-    "*": true,
+    "*": true
   },
   "supermaven.allowGitignore": true,
   "supermaven.otherWarning": false,
