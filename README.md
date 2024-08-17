@@ -4,7 +4,7 @@ This is a collection of my personal settings for Visual Studio Code. I use these
 
 ## Fonts
 
-- [Monaspace Argon](https://monaspace.githubnext.com)
+- [Fira Code](https://github.com/tonsky/FiraCode)
 
 - [MesloLGS NF](https://github.com/romkatv/dotfiles-public/tree/master/.local/share/fonts/NerdFonts)
 
@@ -12,11 +12,11 @@ This is a collection of my personal settings for Visual Studio Code. I use these
 
 - [Catppuccin for VSCode](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc) **_(I use this theme most of the time)_**
 
-- [Monokai Pro](https://monokai.pro/vscode)
-
-- [Cobalt2 Theme Official](https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2)
-
 ## Extensions
+
+- [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)
+
+  - Editor services for Angular templates
 
 - [Apc Customize UI++](https://marketplace.visualstudio.com/items?itemName=drcika.apc-extension)
 
@@ -30,10 +30,6 @@ This is a collection of my personal settings for Visual Studio Code. I use these
 
   - Language support for Astro
 
-- [Babel JavaScript](https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel)
-
-  - VSCode syntax highlighting for today's JavaScript
-
 - [Backticks](https://marketplace.visualstudio.com/items?itemName=fractalbrew.backticks)
 
   - Automatically converts quotes to backticks when entering '${'.
@@ -42,13 +38,9 @@ This is a collection of my personal settings for Visual Studio Code. I use these
 
   - Improve your code commenting by annotating with alert, informational, TODOs, and more!
 
-- [Biome](https://marketplace.visualstudio.com/items?itemName=biomejs.biome)
+- [Biome](https://marketplace.visualstudio.com/items?itemName=biomejs.biome) _(I keep it disabled by default)_
 
   - Biome LSP VS Code Extension
-
-- [Bun for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=oven.bun-vscode)
-
-  - The Visual Studio Code extension for Bun.
 
 - [Carbon Product Icons](https://marketplace.visualstudio.com/items?itemName=antfu.icons-carbon)
 
@@ -65,10 +57,6 @@ This is a collection of my personal settings for Visual Studio Code. I use these
 - [Catppuccin Pack](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc-pack)
 
   - Soothing pastel theme pack for VSCode
-
-- [Cobalt2 Theme Official](https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2)
-
-  - 🔥 Official theme by Wes Bos.
 
 - [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
 
@@ -158,6 +146,14 @@ This is a collection of my personal settings for Visual Studio Code. I use these
 
   - Display import/require package size in the editor
 
+- [IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
+
+  - AI-assisted development
+
+- [IntelliCode API Usage Examples](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.intellicode-api-usage-examples)
+
+  - See relevant code examples from GitHub for over 100K different APIs right in your editor.
+
 - [Jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest)
 
   - Use Facebook's Jest With Pleasure.
@@ -182,13 +178,17 @@ This is a collection of my personal settings for Visual Studio Code. I use these
 
   - Markdown linting and style checking for Visual Studio Code.
 
-- [Monokai Pro](https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode)
+- [NGINX Configuration Language Support](https://marketplace.visualstudio.com/items?itemName=ahmadalli.vscode-nginx-conf)
 
-  - Professional theme and matching icons, from the author of the original Monokai color scheme.
+  - Nginx configuration helper for Visual Studio Code with many features including syntax highlight, auto-complete, in-editor documents, embedded Lua block, and more
 
 - [npm Intellisence](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
 
   - Visual Studio Code plugin that autocompletes npm modules in import statements
+
+- [npm Outdated](https://marketplace.visualstudio.com/items?itemName=mskelton.npm-outdated)
+
+  - Displays a message in package.json files for packages with newer versions
 
 - [Nx Console](https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console)
 
@@ -238,7 +238,7 @@ This is a collection of my personal settings for Visual Studio Code. I use these
 
   - Official Stylelint extension for Visual Studio Code
 
-- [SuperMaven](https://marketplace.visualstudio.com/items?itemName=supermaven.supermaven)
+- [SuperMaven](https://marketplace.visualstudio.com/items?itemName=supermaven.supermaven) _(I keep it disabled by default)_
 
   - The fastest copilot.
 
@@ -270,38 +270,39 @@ This is a collection of my personal settings for Visual Studio Code. I use these
 
 ```text
 aaron-bond.better-comments
+ahmadalli.vscode-nginx-conf
+Angular.ng-template
 antfu.icons-carbon
 apollographql.vscode-apollo
 astro-build.astro-vscode
 biomejs.biome
 bradlc.vscode-tailwindcss
-catppuccin.catppuccin-vsc
-catppuccin.catppuccin-vsc-icons
-catppuccin.catppuccin-vsc-pack
+Catppuccin.catppuccin-vsc
+Catppuccin.catppuccin-vsc-icons
+Catppuccin.catppuccin-vsc-pack
 christian-kohler.npm-intellisense
 christian-kohler.path-intellisense
-davidanson.vscode-markdownlint
+DavidAnson.vscode-markdownlint
 dbaeumer.vscode-eslint
 donjayamanne.githistory
 drcika.apc-extension
 ecmel.vscode-html-css
-editorconfig.editorconfig
+EditorConfig.EditorConfig
 esbenp.prettier-vscode
 formulahendry.code-runner
 fractalbrew.backticks
-github.codespaces
-github.copilot
-github.copilot-chat
-github.vscode-github-actions
-gitlab.gitlab-workflow
-graphql.vscode-graphql
-graphql.vscode-graphql-syntax
-mgmcdermott.vscode-language-babel
+GitHub.codespaces
+GitHub.copilot
+GitHub.copilot-chat
+GitHub.vscode-github-actions
+GitLab.gitlab-workflow
+GraphQL.vscode-graphql
+GraphQL.vscode-graphql-syntax
 mhutchie.git-graph
 mikestead.dotenv
-monokai.theme-monokai-pro-vscode
 mrmlnc.vscode-less
 mrmlnc.vscode-scss
+MS-vsliveshare.vsliveshare
 ms-azuretools.vscode-docker
 ms-kubernetes-tools.vscode-kubernetes-tools
 ms-playwright.playwright
@@ -310,26 +311,26 @@ ms-vscode-remote.remote-ssh
 ms-vscode-remote.remote-ssh-edit
 ms-vscode.remote-explorer
 ms-vscode.remote-server
-ms-vsliveshare.vsliveshare
+mskelton.npm-outdated
 nrwl.angular-console
-orta.vscode-jest
-oven.bun-vscode
+Orta.vscode-jest
 prisma.prisma
 pucelle.vscode-css-navigation
 redhat.vscode-xml
 redhat.vscode-yaml
-ritwickdey.liveserver
-simonsiefke.svg-preview
+ritwickdey.LiveServer
+SimonSiefke.svg-preview
 streetsidesoftware.code-spell-checker
 streetsidesoftware.code-spell-checker-german
 stylelint.vscode-stylelint
 supermaven.supermaven
 tal7aouy.icons
-tyriar.sort-lines
+Tyriar.sort-lines
 usernamehw.errorlens
-vue.volar
+VisualStudioExptTeam.intellicode-api-usage-examples
+VisualStudioExptTeam.vscodeintellicode
+Vue.volar
 waderyan.gitblame
-wesbos.theme-cobalt2
 wix.vscode-import-cost
 ```
 
