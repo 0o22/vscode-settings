@@ -346,8 +346,8 @@ wix.vscode-import-cost
   "workbench.settings.editor": "json",
   "workbench.layoutControl.enabled": false,
   "workbench.productIconTheme": "icons-carbon",
-  "workbench.preferredDarkColorTheme": "Catppuccin Macchiato",
   "workbench.preferredLightColorTheme": "Catppuccin Latte",
+  "workbench.preferredDarkColorTheme": "Catppuccin Mocha",
   "workbench.iconTheme": "catppuccin-mocha",
 
   "window.autoDetectColorScheme": true,
@@ -355,10 +355,7 @@ wix.vscode-import-cost
   "window.commandCenter": false,
   "window.titleBarStyle": "native",
 
-  "catppuccin.extraBordersEnabled": true,
-  "catppuccin-icons.hidesExplorerArrows": true,
-
-  "apc.font.family": "Monaspace Argon",
+  "apc.font.family": "Fira Code",
   "apc.electron": {
     "titleBarStyle": "hidden"
   },
@@ -367,7 +364,7 @@ wix.vscode-import-cost
     "size": 30
   },
 
-  "editor.fontFamily": "Monaspace Argon",
+  "editor.fontFamily": "Fira Code",
   "editor.fontSize": 16,
   "editor.lineHeight": 25,
   "editor.tabSize": 2,
@@ -399,9 +396,9 @@ wix.vscode-import-cost
     "source.fixAll": "explicit"
   },
 
-  "terminal.integrated.fontFamily": "'Monaspace Argon', 'MesloLGS NF'",
+  "terminal.integrated.fontFamily": "'Fira Code', 'MesloLGS NF'",
   "terminal.integrated.fontSize": 14,
-  "terminal.integrated.lineHeight": 1.5,
+  "terminal.integrated.lineHeight": 1.15,
   "terminal.integrated.defaultProfile.osx": "zsh",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
 
@@ -425,7 +422,6 @@ wix.vscode-import-cost
   "git.rebaseWhenSync": true,
 
   "diffEditor.hideUnchangedRegions.enabled": true,
-
   "zenMode.centerLayout": false,
 
   "emmet.triggerExpansionOnTab": true,
@@ -449,20 +445,6 @@ wix.vscode-import-cost
   "typescript.preferences.quoteStyle": "single",
   "javascript.autoClosingTags": true,
   "typescript.autoClosingTags": true,
-
-  "biome.enabled": false,
-  "prettier.enable": false,
-  "eslint.enable": false,
-
-  "github.copilot.enable": {
-    "*": false
-  },
-
-  "supermaven.enable": {
-    "*": true
-  },
-  "supermaven.allowGitignore": true,
-  "supermaven.otherWarning": false,
 
   "liveServer.settings.fullReload": true,
   "liveServer.settings.donotShowInfoMsg": true,
